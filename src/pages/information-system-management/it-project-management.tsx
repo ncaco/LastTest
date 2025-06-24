@@ -8,6 +8,8 @@ const ItProjectManagement = () => {
       <p><b>[중요] 프로젝트 생명 주기:</b> 착수 → 계획 → 실행 → 감시 및 통제 → 종료.</p>
       <p><b>[시험] 주요 관리 기법:</b> Gantt 차트, PERT/CPM, WBS(작업 분할 구조도).</p>
       <p><b>[추가] 위험 관리:</b> 위험 식별, 분석, 대응 계획.</p>
+      <p><b>[예시] 애자일 프로젝트 관리:</b> 스크럼(Sprint, Daily Scrum, Product Backlog), 칸반.</p>
+      <p><b>[예시] 프로젝트 성과 측정:</b> EVM(Earned Value Management), KPI(핵심성과지표).</p>
     </div>
   );
 };
