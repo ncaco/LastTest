@@ -20,6 +20,12 @@ import NewTechTrends from './new-technology-security/new-tech-trends';
 import InfoSecurityTech from './new-technology-security/info-security-tech';
 import SystemSecurityConstruction from './new-technology-security/system-security-construction';
 
+import Exam2025First from './information-processing-exam/2025-1st';
+import Exam2024Third from './information-processing-exam/2024-3rd';
+import Exam2024Second from './information-processing-exam/2024-2nd';
+import Exam2024First from './information-processing-exam/2024-1st';
+import Exam2023First from './information-processing-exam/2023-1st';
+
 interface PageComponents {
   [key: string]: React.FC;
 }
@@ -46,4 +52,10 @@ export const pageComponents: PageComponents = {
   'new-tech-trends': NewTechTrends,
   'info-security-tech': InfoSecurityTech,
   'system-security-construction': SystemSecurityConstruction,
+
+  '2025-1st': Exam2025First,
+  '2024-3rd': Exam2024Third,
+  '2024-2nd': Exam2024Second,
+  '2024-1st': Exam2024First,
+  '2023-1st': Exam2023First,
 }; 
