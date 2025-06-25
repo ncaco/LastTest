@@ -50,7 +50,7 @@ export const menuData: MenuItem[] = [
   },
   {
     id: 'information-processing-exam',
-    name: '정보처리기사 실기 복원 문제',
+    name: '실기 복원 문제',
     children: [
       { id: '2025-1st', name: '2025년도-1회차', content: '[2025년 1회] 정보처리기사 실기 복원 문제 - 최신 출제 경향 및 해답 정리' },
       { id: '2024-3rd', name: '2024년도-3회차', content: '[2024년 3회] 정보처리기사 실기 복원 문제 - 실무 중심 문제 해설' },
